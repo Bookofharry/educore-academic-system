@@ -17,7 +17,7 @@ const Landing = () => {
     <div className="min-h-screen bg-slate-950 font-sans selection:bg-blue-500/30 text-slate-50">
       
       {/* Navbar */}
-      <nav className="fixed top-0 w-full z-50 border-b border-white/10 bg-slate-950/50 backdrop-blur-md">
+      <nav className="fixed top-0 w-full z-50 border-b border-white/10 bg-slate-950">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="h-10 w-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/20">
@@ -167,7 +167,7 @@ const Landing = () => {
                 onClick={() => navigate('/login')}
                 className="text-blue-400 hover:text-blue-300 font-medium inline-flex items-center gap-1 mt-2"
               >
-                Access the demo portal
+                Access the portal
                 <ChevronRight className="h-4 w-4" />
               </button>
             </div>
