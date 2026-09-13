@@ -13,21 +13,21 @@ export const seedData = () => {
     {
       id: 'admin1',
       name: 'System Administrator',
-      email: 'admin@school.edu',
+      email: 'admin@university.edu',
       password: 'admin123',
       role: 'ADMIN'
     },
     {
       id: 'lecturer1',
       name: 'Dr. John Doe',
-      email: 'lecturer@school.edu',
+      email: 'lecturer@university.edu',
       password: 'lecturer123',
       role: 'LECTURER'
     },
     {
       id: 'adviser1',
       name: 'Prof. Jane Smith',
-      email: 'adviser@school.edu',
+      email: 'adviser@university.edu',
       password: 'adviser123',
       role: 'ADVISER'
     }
@@ -45,16 +45,16 @@ export const seedData = () => {
 
   // 3. Lecturers
   const lecturers = [
-    { id: 'lect1', firstName: 'John', lastName: 'Doe', email: 'lecturer@school.edu', departmentId: 'dept1', title: 'Dr.' },
-    { id: 'lect2', firstName: 'Jane', lastName: 'Smith', email: 'adviser@school.edu', departmentId: 'dept1', title: 'Prof.' },
-    { id: 'lect3', firstName: 'Oluwaseun', lastName: 'Adeyemi', email: 'o.adeyemi@school.edu', departmentId: 'dept2', title: 'Dr.' },
-    { id: 'lect4', firstName: 'Chukwudi', lastName: 'Okafor', email: 'c.okafor@school.edu', departmentId: 'dept2', title: 'Mr.' },
-    { id: 'lect5', firstName: 'Aisha', lastName: 'Bello', email: 'a.bello@school.edu', departmentId: 'dept3', title: 'Mrs.' },
-    { id: 'lect6', firstName: 'Emeka', lastName: 'Eze', email: 'e.eze@school.edu', departmentId: 'dept3', title: 'Dr.' },
-    { id: 'lect7', firstName: 'Fatima', lastName: 'Umar', email: 'f.umar@school.edu', departmentId: 'dept4', title: 'Dr.' },
-    { id: 'lect8', firstName: 'Samuel', lastName: 'Ojo', email: 's.ojo@school.edu', departmentId: 'dept1', title: 'Mr.' },
-    { id: 'lect9', firstName: 'Grace', lastName: 'Okonkwo', email: 'g.okonkwo@school.edu', departmentId: 'dept4', title: 'Prof.' },
-    { id: 'lect10', firstName: 'David', lastName: 'Peters', email: 'd.peters@school.edu', departmentId: 'dept2', title: 'Dr.' }
+    { id: 'lect1', firstName: 'John', lastName: 'Doe', email: 'lecturer@university.edu', departmentId: 'dept1', title: 'Dr.' },
+    { id: 'lect2', firstName: 'Jane', lastName: 'Smith', email: 'adviser@university.edu', departmentId: 'dept1', title: 'Prof.' },
+    { id: 'lect3', firstName: 'Oluwaseun', lastName: 'Adeyemi', email: 'o.adeyemi@university.edu', departmentId: 'dept2', title: 'Dr.' },
+    { id: 'lect4', firstName: 'Chukwudi', lastName: 'Okafor', email: 'c.okafor@university.edu', departmentId: 'dept2', title: 'Mr.' },
+    { id: 'lect5', firstName: 'Aisha', lastName: 'Bello', email: 'a.bello@university.edu', departmentId: 'dept3', title: 'Mrs.' },
+    { id: 'lect6', firstName: 'Emeka', lastName: 'Eze', email: 'e.eze@university.edu', departmentId: 'dept3', title: 'Dr.' },
+    { id: 'lect7', firstName: 'Fatima', lastName: 'Umar', email: 'f.umar@university.edu', departmentId: 'dept4', title: 'Dr.' },
+    { id: 'lect8', firstName: 'Samuel', lastName: 'Ojo', email: 's.ojo@university.edu', departmentId: 'dept1', title: 'Mr.' },
+    { id: 'lect9', firstName: 'Grace', lastName: 'Okonkwo', email: 'g.okonkwo@university.edu', departmentId: 'dept4', title: 'Prof.' },
+    { id: 'lect10', firstName: 'David', lastName: 'Peters', email: 'd.peters@university.edu', departmentId: 'dept2', title: 'Dr.' }
   ];
   storageService.set(KEYS.LECTURERS, lecturers);
 
